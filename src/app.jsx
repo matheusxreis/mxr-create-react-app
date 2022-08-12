@@ -1,6 +1,6 @@
 import React from "react";
 import { Test } from "./test";
-import './app.css'
+import './app.scss'
 
 export default function App(){
     return (
