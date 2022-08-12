@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './app.scss'
 
 export default function App(){
-    const [counter, setCounter] = useState('0');
+    const [counter, setCounter] = useState<number>(0);
     
     function incrementCounter() { setCounter(counter+1) }
     function decrementCounter() { setCounter(counter-1) }
