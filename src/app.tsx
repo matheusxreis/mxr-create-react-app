@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './app.scss'
+import { Box } from "./box";
 
 export default function App(){
     const [counter, setCounter] = useState<number>(0);
@@ -13,6 +14,8 @@ export default function App(){
     <h3> {counter} </h3> 
     <button onClick={()=>incrementCounter()}> increment </button>
     <button onClick={()=>decrementCounter()}> decrement </button>
+
+    <Box />
 
     </>)
 
