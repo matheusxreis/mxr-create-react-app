@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.div`
     width:200px;
     height:150px;
-    background:#fff;
+    background:${({ theme }) => theme.colors.primary};
 
 `;
 
 export const Title = styled.h1`
-  color: #212930;
+  color: ${({ theme }) => theme.colors.textPrimary};
 
 `;
